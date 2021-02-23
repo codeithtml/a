@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coders</title>
+<link rel="icon" href="HTML5_Logo_512.ico">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://www.itl.cat/pngfile/big/210-2101051_dark-web-scanning-background-image-for-website-of.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* 
+h1 img {float:left;margin:0 5px 0 0} */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* @media screen and (max-width: 600px) {
+  .topnav a:not(:) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  body {
+    background-color: lightblue;
+  }
+  h1.asdf {
+    font-size: x-large;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <div style="overflow: auto; float: left;"><h1 class="asdf" style="color: white; font-family: 'Courier New', Courier, monospace;">{} Aaditya|Sahil|Coders</h1></div>
+  <div style="float: right;">  <h1><a href="#home" class="active">Home</a>
+ 
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a></h1>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<section style="text-align: center; margin-top: 250px; font-family: 'Courier New', Courier, monospace; font-size: 200%; color: lavender; font-weight: bolder;" class="content">
+  <h1>Hi I am Aaditya,</h1>
+  <h2>A web designer.</h2>
+</section>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<section id="contact" style="background-color:lightskyblue;">
+  <br><br><br>
+  <h1 style="text-align: center; text-decoration: underline;">Contact</h1>
+  <h2 style="text-align: center; text-decoration: underline;">If you have any doubt related to html, css ,javascript, and node.js contact us.</h2><br><br><br><br>
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqpzopp" method="post">
+
+    <fieldset id="fs-frm-inputs">
+      
+      <input type="text" name="name" id="full-name" placeholder="Your name" required="">
+      
+      <input type="email" name="_replyto" id="email-address" placeholder="Your email" required="">
+      
+      <textarea rows="5" style="width: 500px;" name="message" id="message" placeholder="Your message" required=""></textarea>
+      
+    </fieldset>
+    <input type="submit" value="Submit">
+    <br><br><br><br><br><br>
+  </form><style>/* reset */
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm fieldset,
+  #fs-frm optgroup,
+  #fs-frm label,
+  #fs-frm #card-element:disabled {
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    display: block;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: center;
+    max-width: 430px;
+  margin: auto;
+  
+  padding: 10px;
+  }
+  #fs-frm label,
+  #fs-frm legend,
+  #fs-frm ::placeholder {
+    font-size: x-large;
+    margin-bottom: .5rem;
+    padding-top: .2rem;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+  }
+  
+  /* border, padding, margin, width */
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm #card-element {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.9);
+    padding: .75em 1rem;
+    margin-bottom: 1.5rem;
+  }
+  #fs-frm input:focus,
+  #fs-frm select:focus,
+  #fs-frm textarea:focus {
+    background-color: white;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: gray;
+    outline-offset: -1px;
+  }
+  #fs-frm [type="text"],
+  #fs-frm [type="email"] {
+    width: 100%;
+  }
+  #fs-frm [type="button"],
+  #fs-frm [type="submit"],
+  #fs-frm [type="reset"] {
+    width: auto;
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
+  #fs-frm [type="button"]:focus,
+  #fs-frm [type="submit"]:focus,
+  #fs-frm [type="reset"]:focus {
+    outline: none;
+  }
+  #fs-frm [type="submit"],
+  #fs-frm [type="reset"] {
+    margin-bottom: 0;
+  }
+  #fs-frm select {
+    text-transform: none;
+  }
+  
+  #fs-frm [type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    margin: 0 .5em 0 0 !important;
+  }
+  
+  #fs-frm [type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+  }
+  
+  /* address, locale */
+  #fs-frm fieldset.locale input[name="city"],
+  #fs-frm fieldset.locale select[name="state"],
+  #fs-frm fieldset.locale input[name="postal-code"] {
+    display: inline;
+  }
+  #fs-frm fieldset.locale input[name="city"] {
+    width: 52%;
+  }
+  #fs-frm fieldset.locale select[name="state"],
+  #fs-frm fieldset.locale input[name="postal-code"] {
+    width: 20%;
+  }
+  #fs-frm fieldset.locale input[name="city"],
+  #fs-frm fieldset.locale select[name="state"] {
+    margin-right: 3%;
+  }
+  </style>
+</section>
+<section id="about">
+  <br><br><br><br><br><br><br><br>
+  <h1 style="text-align: center; text-decoration: underline; color: lavender;">About Us</h1>
+  
+
+<div class="column" style="margin-left: 200px;">
+<div class="card" style="border-color: black;  background-color: lightblue;">
+  <img style="border-radius: 100%; height: 200px; width: 250px; margin-left: 100px;" src="https://qph.fs.quoracdn.net/main-qimg-2b21b9dd05c757fe30231fac65b504dd" alt="Mike" style="width:100%">
+  <div class="container">
+    <h2 style="text-align: center;">Aaditya Maurya</h2>
+    <p class="title" style="text-align: center;">Web designer, ceo  and owner of this website</p>
+
+  </div>
+</div>
+</div>
+
+<div class="column">
+<div class="card" style="border-color: black; background-color: lightblue;">
+  <img style="border-radius: 100%; height: 200px; width: 250px; margin-left: 100px;" src="https://qph.fs.quoracdn.net/main-qimg-2b21b9dd05c757fe30231fac65b504dd" alt="John" style="width:100%">
+  <div class="container">
+    <h2 style="text-align: center;">Sahil Maurya</h2>
+    <p class="title" style="text-align: center;">Learner, Co-owner</p>
+
+  </div>
+</div>
+</div>
+</div>
+<style>/* Three columns side by side */
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }</style>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</section>
+<footer>
+  <hr>
+  <p style="text-align: center;">©Copyright AadityaMaurya&SahilMaurya 2021</p>
+</footer>
+</body>
+</html>
+
